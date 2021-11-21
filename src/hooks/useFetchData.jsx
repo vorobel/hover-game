@@ -1,20 +1,12 @@
 import { useState, useEffect } from 'react';
 
 import { API_MODE } from '../API';
+import { changeDataFormat } from '../helpers'
 
 export const useFetchData = () => {
   const [data, setData] = useState();
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
-
-  const changeDataFormat = (data) => {
-    return(
-      Object.keys(data).map(key => ({
-        label: key,
-        value: data[key].field
-      }))
-    )
-  }
 
   useEffect(() => {
     setLoading(true);

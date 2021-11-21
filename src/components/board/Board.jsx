@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Cell } from '../cell/cell';
+import { Cell } from '../cell';
 import { BoardContainer } from './styled-containers';
 
 export const Board = ({ matrix, triggerCell, hoveredCells }) => {

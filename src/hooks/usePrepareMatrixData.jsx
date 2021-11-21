@@ -9,7 +9,7 @@ export const usePrepareMatrix = (size) => {
       for (let i = 1; i <= size; i++) {
         let tempArray = [];
         for (let j = 1; j <= size; j++) {
-          tempArray.push(`row ${i} col ${j}`); //Template literal
+          tempArray.push(`row ${i} col ${j}`);
         }
         m.push(tempArray);
       }

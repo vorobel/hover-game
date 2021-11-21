@@ -6,7 +6,7 @@ import { usePrepareMatrix } from './hooks/usePrepareMatrixData';
 import { Picker } from './components/picker';
 import { Board } from './components/board';
 import { HoverSquare } from './components/hover-square/HoverSquare';
-import { ButtonDefault } from './components/buttons/buttons';
+import { ButtonDefault } from './components/buttons';
 import { FlexContainer, PickerContainer, HoveredStateContainer, HoveredStateTitleContainer, LoadingContainer, HoveredStateItemsContainer } from './styled-containers';
 import './App.css';
 
