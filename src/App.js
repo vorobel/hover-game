@@ -21,7 +21,6 @@ function App() {
 
   const setFieldSize = () => {
     const ref = pickedRef.current;
-    console.log(ref)
     setHoveredCells([]);
     setState(ref?.state?.selectValue[0]?.value);
   };
@@ -33,8 +32,6 @@ function App() {
       setHoveredCells(hoveredCells.filter(cell => cell !== cellName))
     )
   };
-
-  console.log(matrix);
 
   return (
     <div className="App">
