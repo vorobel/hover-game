@@ -1,0 +1,1 @@
+export const API_MODE = 'https://demo1030918.mockable.io/';
