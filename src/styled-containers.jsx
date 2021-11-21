@@ -14,7 +14,6 @@ export const HoveredStateContainer = styled.div`
 `;
 
 export const HoveredStateItemsContainer = styled.div`
-
   height: 610px;
   overflow: auto;
 `;

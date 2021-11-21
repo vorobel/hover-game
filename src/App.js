@@ -56,7 +56,6 @@ function App() {
               })}
             </HoveredStateItemsContainer>
           </HoveredStateContainer>
-
         </FlexContainer>
       ) : <p>Something went wrong!</p>}
     </div>

@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 
 import { API_MODE } from '../API';
-import { changeDataFormat } from '../helpers'
+import { changeDataFormat } from '../helpers';
 
 export const useFetchData = () => {
   const [data, setData] = useState();
@@ -14,8 +14,8 @@ export const useFetchData = () => {
       .then((responce) => responce.json())
       .then((result) => setData(changeDataFormat(result)))
       .catch(() => setError('Something went wrong!'))
-      .finally(() => setLoading(false))
+      .finally(() => setLoading(false));
   }, []);
 
-  return { data, loading, error }
-}
+  return { data, loading, error };
+};
